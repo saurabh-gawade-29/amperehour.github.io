@@ -770,9 +770,9 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="https://formsubmit.co/9d6fc3cbae36f938c7d31603a7570177"
+                target="_blank"
+                action="https://formsubmit.co/amperehouren@gmail.com"
                 method="POST"
-                class="php-email-form"
               >
                 <div class="row">
                   <div class="col-md-6 form-group">
@@ -815,15 +815,18 @@
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
+                <div class="my-3"></div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" class="btn btn-warning">
+                    Send Message
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn btn-warning"
+                    onClick="window.location.reload();"
+                  >
+                    Clear
+                  </button>
                 </div>
               </form>
             </div>
